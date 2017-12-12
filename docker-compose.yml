@@ -16,10 +16,7 @@ services:
     image: mysql:5.7.18
     environment:
       - MYSQL_ROOT_PASSWORD=root
-    ports:
-      - "3306:3306"
   mailcatcher:
     image: tophfr/mailcatcher
     ports:
       - "1080:80"
-      - "25:25"
