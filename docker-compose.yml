@@ -8,7 +8,7 @@ services:
     volumes:
       - .:/myapp
     ports:
-      - "3000:3000"
+      - "127.0.0.1:3000:3000"
     links:
       - mysql
       - mailcatcher
@@ -19,4 +19,4 @@ services:
   mailcatcher:
     image: tophfr/mailcatcher
     ports:
-      - "1080:80"
+      - "127.0.0.1:1080:80"
