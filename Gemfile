@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 #don't upgrade
 gem 'rails', '5.1.4'
 
-ruby '2.4.2'
+ruby '2.6.3'
 
 gem 'rake'
 gem 'rails-perftest'
